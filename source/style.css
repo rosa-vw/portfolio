@@ -25,6 +25,25 @@ h2 {
   opacity: 0.8;
 }
 
+h3 {
+  font-weight: 600;
+  font-size: 32px;
+  margin: 40px auto 40px 60px;
+}
+
+h4 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+p {
+  opacity: 0.8;
+}
+
+img {
+  border-radius: 5px;
+}
+
 .hello {
   margin: 40px 60px 20px 60px;
 }
@@ -41,11 +60,17 @@ h2 {
   color: black;
   text-decoration: none;
   border: solid;
-  border-radius: 10px;
+  border-width: 2px;
+  border-radius: 5px;
   border-color: black;
   padding: 10px 20px;
+  text-align: center;
 }
 
 .photo {
   font-size: 80px;
+}
+
+.projects {
+  margin-left: 60px;
 }
