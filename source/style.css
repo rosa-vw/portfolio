@@ -1,8 +1,51 @@
+body {
+  background-color: rgba(255, 250, 242, 1);
+}
+
+#navbar {
+  background-color: rgba(168, 194, 167, 1) !important;
+}
+
+header {
+  background-color: rgba(223, 239, 225, 1);
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
 h1 {
   font-family: monospace;
+  font-weight: 900;
+  font-size: 40px;
 }
 
 h2 {
   font-weight: 100;
-  opacity: 0.6;
+  font-size: 20px;
+  line-height: 40px;
+  opacity: 0.8;
+}
+
+.hello {
+  margin: 40px 60px 20px 60px;
+}
+
+.me {
+  margin-right: 40px;
+}
+
+.buttons {
+  margin: 20px 60px 40px 60px;
+}
+
+.button {
+  color: black;
+  text-decoration: none;
+  border: solid;
+  border-radius: 10px;
+  border-color: black;
+  padding: 10px 20px;
+}
+
+.photo {
+  font-size: 80px;
 }

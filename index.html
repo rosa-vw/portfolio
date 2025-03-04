@@ -28,10 +28,52 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="d-flex bg-primary">
-      <h1>Hi, I am Rosa</h1>
-      <h2>Front-end developer</h2>
-      <i class="fa-brands fa-artstation"></i>
-    </div>
+    <nav class="navbar navbar-expand-md bg-body-tertiary" id="navbar">
+      <div class="container-fluid mx-5">
+        <a class="navbar-brand d-flex" href="#">Rosavw</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="hello d-flex justify-content-between">
+        <div class="name">
+          <h1>Hi, I am Rosa</h1>
+          <h2>Front-end developer</h2>
+        </div>
+        <div class="me">
+          <i class="fa-regular fa-user photo"></i>
+        </div>
+      </div>
+      <div class="buttons d-flex justify-content-between">
+        <a href="#" class="button">Contact me</a>
+        <a href="#" class="button">More about me</a>
+      </div>
+    </header>
   </body>
 </html>
