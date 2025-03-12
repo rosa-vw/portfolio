@@ -37,6 +37,11 @@ h4 {
   margin: 10px 0;
 }
 
+h5 {
+  opacity: 0.8;
+  font-weight: 100;
+}
+
 p {
   opacity: 0.8;
 }
@@ -55,7 +60,7 @@ footer {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 28px;
+    font-size: 36px;
   }
   h2 {
     font-size: 20px;
