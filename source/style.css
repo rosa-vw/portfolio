@@ -142,3 +142,13 @@ footer {
 .about-buttons a {
   margin-right: 10px;
 }
+
+.mail-link {
+  color: black;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.mail-link:hover {
+  color: rgba(168, 194, 167, 1);
+}
